@@ -6,16 +6,21 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Example'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'NAIC_Training'
+copyright = '2023, UiO'
+author = 'UiO'
 release = '0.1'
 
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+# extensions = ['myst_parser']
+extensions = [
+	'myst_parser', 
+	'sphinx.ext.mathjax', 
+	'sphinx.ext.githubpages',
+	'sphinx.ext.todo']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
