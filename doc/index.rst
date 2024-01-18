@@ -1,14 +1,16 @@
-.. Example documentation master file, created by
-   sphinx-quickstart on Sat Sep 23 20:35:12 2023.
+.. NAIC_Training documentation master file, created by
+   sphinx-quickstart on Thu Dec 21 14:33:04 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Example's documentation!
-===================================
+Welcome to Norwegian AI Cloud Training documentation!
+==========================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 4
+   :caption: NAIC Training Event Contents:
 
-   some-feature.md
-   another-feature.md
+   training-roadmap.md
+   training-maincourses.rst
+   training-faq.md
+   support-userhelpuser.md
