@@ -6,11 +6,17 @@
 Welcome to Norwegian AI Cloud Training documentation!
 ==========================================================
 
-.. toctree::
-   :maxdepth: 4
-   :caption: NAIC Training Event Contents:
+:caption:  NAIC Training Event Contents:
+:maxdepth: 1
 
-   training-roadmap.md
-   training-maincourses.rst
-   training-faq.md
-   support-userhelpuser.md
+training-roadmap.md
+training-maincourses.rst
+training-faq.md
+support-userhelpuser.md
+
+:caption: Inner Docs For Training WP
+:maxdepth: 1
+Main Course Structure <course-structure.md>
+Course Identification, Content and Implementation Tutorial <course-definition-form.md>
+Partner Roles and WP Related Items <partner-roles.md>
+Strengths <partner-strengths.md>
