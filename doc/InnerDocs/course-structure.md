@@ -5,6 +5,6 @@ This will be our basic structure. The Course class is the main class that encaps
 
 
 
-```{figure} /images/Course-Str.png
+```{figure} /../images/Course-Str.png
 Important to follow this structure.
 ```
