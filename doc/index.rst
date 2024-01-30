@@ -19,7 +19,7 @@ Welcome to Norwegian AI Cloud Training documentation!
    :caption: Inner Docs For Training WP:
 
    support-userhelpuser.md
-   Main Course Structure <course-structure.md>
-   Course Identification, Content and Implementation Tutorial <course-definition-form.md>
-   Partner Roles and WP Related Items <partner-roles.md>
-   Strengths <partner-strengths.md>
+   Main Course Structure <InnerDocs/course-structure.md>
+   Course Identification, Content and Implementation Tutorial <InnerDocs/course-definition-form.md>
+   Partner Roles and WP Related Items <InnerDocs/partner-roles.md>
+   Strengths <InnerDocs/partner-strengths.md>
