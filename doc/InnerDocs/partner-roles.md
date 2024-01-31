@@ -2,9 +2,10 @@
 
 ## Deliverables
 
-Competencies and responsible names for the [Course Hierarchy](course-structure.md).
--  Create a list of existing trainings provided by all partners
--  Create Course Definition Forms:
+-  Form and Finalise Requirement Analysis:
+   -   the list of existing trainings
+   -   and potential contributions provided by all partners
+-  Create Course Definition Forms based on the [Course Hierarchy](course-structure.md):
    - Course Identification
    - Course Content
    - Course Implementation
@@ -13,7 +14,7 @@ NAIC Training Plan & Deliverables.
 ```
 
 ## Partner Roles
-This table shows the main tasks we should follow. Please follow the slides for a detailed and comprehensive understanding.
+This table shows the main tasks we should follow. 
 
 ```{figure} ../images/Partner-Roles.png
 Keep in mind.
