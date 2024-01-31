@@ -4,14 +4,14 @@
 This table shows the main tasks that all partners should follow. 
 
 ```{figure} ../images/Partner-Roles.png
-Keep in mind.
+Partner Roles in detail
 ```
 
 ## Deliverables
 
 
 ```{figure} ../images/Deliverables.png
-NAIC Training Plan & Deliverables.
+NAIC Training WP Details
 ```
 
 ## Important Deadlines
