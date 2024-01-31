@@ -11,7 +11,7 @@ Partner Roles in detail
 
 
 ```{figure} ../images/Deliverables.png
-NAIC Training WP Details
+NAIC Training WP3 Details
 ```
 
 ## Important Deadlines
