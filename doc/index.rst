@@ -22,4 +22,4 @@ Welcome to Norwegian AI Cloud Training documentation!
    Course Identification, Content and Implementation Tutorial <InnerDocs/course-definition-form.md>
    Partner Roles and WP Related Items <InnerDocs/partner-roles.md>
    Strengths <InnerDocs/partner-strengths.md>
-   Monthly Meeting Notes <https://md.sigma2.no/s/z3b2HUkmP>
+   Monthly Meeting Notes <InnerDocs/monthly_meetings.md>
