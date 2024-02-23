@@ -45,6 +45,38 @@ For Git Intro, such a CR playlist can be used:
 
 ### **2. NRIS Courses** 
 
+Norwegian Research Infrastructure Services NRIS (formerly known as the The Metacenter), has an extensive education and training program to assist existing and future users of our services. The courses are aimed to give the participants an understanding of our services as well as using the resources effectively. The courses are free of charges. Our upcoming courses can be reached [here](https://documentation.sigma2.no/training/events.html#upcoming-events)
+
+Past events with YouTube materials and Q&A sessions can be found [here](https://documentation.sigma2.no/training/events.html#past-events)
+
+Core Courses: 
+All lesson materials are regularly improved and kept up-to-date by NRIS. These intro lessons are also fit for self learning.
+
+   -    #### [UNIX-intro for HPC users](https://training.pages.sigma2.no/tutorials/unix-for-hpc/index.html)
+         Contents:
+         1. The terminal and remote login
+         2. Moving around and looking at things
+         3. Finding Things
+         4. Create/modify files
+         5. Scripting
+         6. Composing commands with pipes
+         7. Linux command cheat sheet
+   
+   -    #### [HPC Intro Lessons](https://training.pages.sigma2.no/tutorials/hpc-intro/index.html)
+         Contents:
+         1.   Why use a Cluster?
+         2.   Working on a remote HPC system
+         3.   Scheduling jobs
+         4.   Keeping interactive jobs alive
+         5.   Transferring files
+         6.   Accessing software
+         7.   Compute and storage quota
+         8.   Using shared resources responsibly
+       
+   -    #### [GPU programming](https://documentation.sigma2.no/training/material.html#gpu-programming)
+         1.   [Introduction to AMD ROCm GPU programming](https://www.youtube.com/playlist?list=PLx15eYqzJifehAxhWRD6T35GZwAqM9IK4)
+         2.   [Introduction to OpenACC programming](https://www.youtube.com/watch?v=KgMJzmqenuc)
+
 ## Synchronous Courses
 
 Synchronous courses under this heading can be conducted in two ways:
