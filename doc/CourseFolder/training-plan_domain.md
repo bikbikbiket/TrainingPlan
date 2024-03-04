@@ -1,70 +1,19 @@
 # Domain specific Data Mining courses
 
-
-## part1
-```{instructor-note}
-Total: 20min
-(Teaching:10Min | Discussion:10min | Breaks:0min | Exercises:0Min)
-```
-
-```{objectives}
-- Questions
-  - Why would I be interested in High Performance Computing (HPC) ?
-  - What can I expect to learn from this course?    
-
-- Objectives
-  - Be able to describe what an HPC system is
-  - Identify how an HPC system could benefit you.  
-  
-- Keypoints
-  - High Performance Computing (HPC) typically involves connecting to very large computing systems elsewhere in the world.
-  - These other systems can be used to do work that would either be impossible or much slower on  smaller systems.
-  - The standard method of interacting with such systems is via a command line interface called Bash.
-  ```
-
-
-```{note}
-- **Understand** how static site generators build websites out of plain
-  text files.
-- Create example Sphinx documentation and learn some Markdown along the way.
-```
-
-```{admonition} My markdown link
-Here is [markdown link syntax](https://jupyter.org)
-```
-
-``````{note}
-The next info should be nested
-`````{warning}
-Here's my warning
-````{admonition} Yep another admonition
-```python
-# All this fuss was about this boring python?!
-print('yep!')
-```
-````
-`````
-``````
-## part2
 This tutorial consists of the courses about ML/AI for the users who have some AI background (ML disciplines):
 
 - Science & Engineering
   - Bioinformatics data:
 
-  ```{objectives}
-  - Introduction to machine learning applications in genomic analysis
-  - Our short course, "Introduction to Machine Learning Applications in Genomic Analysis," is specifically designed to provide ...
-  ...
-  ...
+  ```{Introduction to machine learning applications in genomic analysis}
+    - Abstract: Our short course, "Introduction to Machine Learning Applications in Genomic Analysis," is specifically designed to provide an overview of the key machine learning concepts and their use cases in genomic analysis. The course begins with an introduction to the main concepts of machine learning technologies, including supervised learning, unsupervised learning, and reinforcement learning, providing participants with a basic understanding of how these technologies work. Next, the course will introduce various genomic analysis methods that can potentially benefit from machine learning technologies. Here, we will introduce participants to recently developed machine-learning-based genomic analysis tools, while highlighting their underlying technologies. Importantly, we will highlight the challenges of using these tools in genomic analysis and discuss the associated risks. By the end of the course, participants will have gained a basic understanding of machine learning use cases in genomic analysis, as well as the current challenges and risks of this growing field.
   ```
-  ```{note}
-  - **Understand** how static site generators build websites out of plain
-    text files.
-  - Create example Sphinx documentation and learn some Markdown along the way.
-  ```
-
-  ```{admonition} My markdown link
-  Here is [markdown link syntax](https://jupyter.org)
+  ```{About the Course}
+  - Audience
+    * Biologists interested in machine learning applications in genomics
+  - Learning outcomes
+    * Gain a basic understanding of machine learning methods and their applications in genomic analysis.
+    * Understand the current challenges and risks of using machine-learning-based tools in genomic analysis.
   ```
 
   - Natural Language Processing
