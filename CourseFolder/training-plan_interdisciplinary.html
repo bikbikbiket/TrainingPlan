@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Wrangling &amp; Machine Learning for Interdisciplinary Users &mdash; NAIC_Training 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=2709fde1"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Domain specific Data Mining courses" href="training-plan_domain.html" />
+    <link rel="prev" title="NAIC Infrastructure and Tools" href="training-plan_tools.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            NAIC_Training
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">NAIC Training Event Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../training-roadmap.html">NAIC Training Plan</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../training-maincourses.html">NAIC Main Courses</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="training-plan_uiRST.html">NAIC Interface Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="training-plan_tools.html">NAIC Infrastructure and Tools</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Data Wrangling &amp; Machine Learning for Interdisciplinary Users</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-wrangling">Data Wrangling</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#data-understanding-and-knowledge-discovery-process">Data Understanding and Knowledge Discovery Process</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-collection-data-gathering">Data Collection (Data Gathering)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-inspection-and-cleaning">Data Inspection and Cleaning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-transformation">Data Transformation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-analysis">Data Analysis</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#machine-learning">Machine Learning</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#supervised-machine-learning-regression-and-classification">Supervised Machine Learning: Regression and Classification</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#unsupervised-learning-recommenders-reinforcement-learning">Unsupervised Learning, Recommenders, Reinforcement Learning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#advanced-learning-algorithms">Advanced Learning Algorithms</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="training-plan_domain.html">Domain specific Data Mining courses</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../training-faq.html">Tutorials &amp; FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support-userhelpuser.html">User Helping User</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Inner Docs For Training WP:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../InnerDocs/course-structure.html">Main Course Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../InnerDocs/course-definition-form.html">Course Identification, Content and Implementation Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../InnerDocs/partner-roles.html">Partner Roles and WP Related Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../InnerDocs/partner-strengths.html">Strengths</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../InnerDocs/monthly_meetings.html">Monthly Meeting Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NAIC_Training</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../training-maincourses.html">NAIC Main Courses</a></li>
+      <li class="breadcrumb-item active">Data Wrangling &amp; Machine Learning for Interdisciplinary Users</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/CourseFolder/training-plan_interdisciplinary.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="data-wrangling-machine-learning-for-interdisciplinary-users">
+<h1>Data Wrangling &amp; Machine Learning for Interdisciplinary Users<a class="headerlink" href="#data-wrangling-machine-learning-for-interdisciplinary-users" title="Link to this heading"></a></h1>
+<p>This tutorial consists of the courses about Data Mining Techniques, Machine Learning disciplines, Artificial Intelligence capabilities for the users from:</p>
+<ul class="simple">
+<li><p>Education</p></li>
+<li><p>Health and Medicine</p></li>
+<li><p>Language</p></li>
+<li><p>Law</p></li>
+<li><p>Economics</p></li>
+<li><p>Maths and Natural Science</p></li>
+<li><p>Social Sciences &amp; Psychology</p></li>
+</ul>
+<section id="data-wrangling">
+<h2>Data Wrangling<a class="headerlink" href="#data-wrangling" title="Link to this heading"></a></h2>
+<section id="data-understanding-and-knowledge-discovery-process">
+<h3>Data Understanding and Knowledge Discovery Process<a class="headerlink" href="#data-understanding-and-knowledge-discovery-process" title="Link to this heading"></a></h3>
+<p>Basic concepts, definitions, data types and formats.</p>
+<p>What should we teach:</p>
+<ul class="simple">
+<li><p>Introduction to Programming: R programming, Python.</p></li>
+<li><p>Introduction to Version Control Systems: Github</p></li>
+<li><p>Introduction to Productivity Tools: Installing R, R-Studio, Git.</p></li>
+<li><p>The data, problems, and tools that data analysts use</p></li>
+<li><p>Common data storage systems</p></li>
+</ul>
+</section>
+<section id="data-collection-data-gathering">
+<h3>Data Collection (Data Gathering)<a class="headerlink" href="#data-collection-data-gathering" title="Link to this heading"></a></h3>
+<p>Gather data from various sources, such as databases, spreadsheets, text files, web scraping, or APIs.</p>
+</section>
+<section id="data-inspection-and-cleaning">
+<h3>Data Inspection and Cleaning<a class="headerlink" href="#data-inspection-and-cleaning" title="Link to this heading"></a></h3>
+<p>Examine the raw data to understand its structure, size, and quality. Check for missing values, duplicates, outliers, and any anomalies that may affect the analysis.  Address data quality issues by:</p>
+<ul class="simple">
+<li><p>Handling missing values: Decide whether to remove, impute, or use default values for missing data.</p></li>
+<li><p>Removing duplicates: Identify and remove duplicate records if they exist.</p></li>
+<li><p>Correcting errors: Fix data entry errors, inconsistencies, and outliers.</p></li>
+<li><p>Standardizing data: Ensure consistency in data formats (e.g., date formats, units of measurement).</p></li>
+<li><p>Handling outliers: Decide how to deal with outliers based on domain knowledge and analysis goals.</p></li>
+</ul>
+</section>
+<section id="data-transformation">
+<h3>Data Transformation<a class="headerlink" href="#data-transformation" title="Link to this heading"></a></h3>
+<p>Transform the data to make it suitable for analysis:</p>
+<ul class="simple">
+<li><p>Data encoding: Convert categorical data into numerical format (e.g., one-hot encoding).</p></li>
+<li><p>Scaling and normalization: Standardize numerical variables to have similar scales.</p></li>
+<li><p>Feature engineering: Create new features or variables that provide more information for analysis.</p></li>
+<li><p>Aggregation: Summarize data at different levels (e.g., group by category, time period).</p></li>
+<li><p>Pivot and reshape data: Rearrange data to facilitate analysis (e.g., pivot tables).</p></li>
+<li><p>Date and time manipulation: Extract relevant information from date and time columns.</p></li>
+<li><p>Data Reduction: Reduce the dimensionality of the data by selecting relevant variables or features for analysis. Dimensionality reduction techniques like Principal Component Analysis (PCA) can be employed.</p></li>
+</ul>
+</section>
+<section id="data-analysis">
+<h3>Data Analysis<a class="headerlink" href="#data-analysis" title="Link to this heading"></a></h3>
+<p>Aim: Make sense of your data to extract meaningful insights.</p>
+<ul class="simple">
+<li><p>Exploratory Data Analysis (How to explore data relationships)</p></li>
+<li><p>Descriptive Analysis (What happened)</p></li>
+<li><p>Diagnostic Analysis  (Why it happened)</p></li>
+<li><p>Predictive Analysis (What will happen)</p></li>
+<li><p>Prescriptive Analysis (How will it happen)</p></li>
+</ul>
+</section>
+</section>
+<section id="machine-learning">
+<h2>Machine Learning<a class="headerlink" href="#machine-learning" title="Link to this heading"></a></h2>
+<p>By the end of this Specialization, you will be ready to:</p>
+<ul class="simple">
+<li><p>Build machine learning models in Python using popular machine learning libraries NumPy and scikit-learn.</p></li>
+<li><p>Build and train supervised machine learning models for prediction and binary classification tasks, including linear regression and logistic regression.</p></li>
+<li><p>Build and train a neural network with TensorFlow to perform multi-class classification.</p></li>
+<li><p>Apply best practices for machine learning development so that your models generalize to data and tasks in the real world.</p></li>
+<li><p>Build and use decision trees and tree ensemble methods, including random forests and boosted trees.</p></li>
+<li><p>Use unsupervised learning techniques for unsupervised learning: including clustering and anomaly detection.</p></li>
+<li><p>Build recommender systems with a collaborative filtering approach and a content-based deep learning method.</p></li>
+<li><p>Build a deep reinforcement learning model.</p></li>
+</ul>
+<section id="supervised-machine-learning-regression-and-classification">
+<h3>Supervised Machine Learning: Regression and Classification<a class="headerlink" href="#supervised-machine-learning-regression-and-classification" title="Link to this heading"></a></h3>
+<p>What you’ll learn:</p>
+<ul class="simple">
+<li><p>Build machine learning models in Python using popular machine learning libraries NumPy &amp; scikit-learn</p></li>
+<li><p>Build &amp; train supervised machine learning models for prediction &amp; binary classification tasks, including linear regression &amp; logistic regression</p>
+<ul>
+<li><p>Introduction to Machine Learning</p></li>
+<li><p>Classification</p></li>
+<li><p>Regression</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="unsupervised-learning-recommenders-reinforcement-learning">
+<h3>Unsupervised Learning, Recommenders, Reinforcement Learning<a class="headerlink" href="#unsupervised-learning-recommenders-reinforcement-learning" title="Link to this heading"></a></h3>
+<p>What you’ll learn:</p>
+<ul class="simple">
+<li><p>Use unsupervised learning techniques for unsupervised learning: including clustering and anomaly detection</p></li>
+<li><p>Build recommender systems with a collaborative filtering approach and a content-based deep learning method</p></li>
+<li><p>Build a deep reinforcement learning model</p>
+<ul>
+<li><p>Unsupervised Learning</p></li>
+<li><p>Recommender systems</p></li>
+<li><p>Deep reinforcement learning model</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="advanced-learning-algorithms">
+<h3>Advanced Learning Algorithms<a class="headerlink" href="#advanced-learning-algorithms" title="Link to this heading"></a></h3>
+<p>What you’ll learn:</p>
+<ul class="simple">
+<li><p>Build and train a neural network with TensorFlow to perform multi-class classification</p></li>
+<li><p>Apply best practices for machine learning development so that your models generalize to data and tasks in the real world</p></li>
+<li><p>Build and use decision trees and tree ensemble methods, including random forests and boosted trees</p>
+<ul>
+<li><p>Neural networks</p></li>
+<li><p>Decision trees</p></li>
+<li><p>Deep learning</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="training-plan_tools.html" class="btn btn-neutral float-left" title="NAIC Infrastructure and Tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="training-plan_domain.html" class="btn btn-neutral float-right" title="Domain specific Data Mining courses" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, UiO.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
