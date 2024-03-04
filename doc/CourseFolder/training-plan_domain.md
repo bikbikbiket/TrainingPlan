@@ -13,6 +13,7 @@ This tutorial consists of the courses about ML/AI for the users who have some AI
 ```{admonition} About the Course
   **Audience**
     -  Biologists interested in machine learning applications in genomics
+
   **Learning outcomes**
     -  Gain a basic understanding of machine learning methods and their applications in genomic analysis.
     -  Understand the current challenges and risks of using machine-learning-based tools in genomic analysis.
