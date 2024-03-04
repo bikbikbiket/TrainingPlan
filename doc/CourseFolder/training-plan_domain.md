@@ -5,7 +5,15 @@ This tutorial consists of the courses about ML/AI for the users who have some AI
 
 - Science & Engineering
 
-  - Bioinformatics data
+  - Bioinformatics data:
+
+  ```{objectives}
+  - Introduction to machine learning applications in genomic analysis
+  - Our short course, "Introduction to Machine Learning Applications in Genomic Analysis," is specifically designed to provide ...
+  ...
+  ...
+  ```
+
   - Natural Language Processing
   - Medical data processing
   - Data in Education
